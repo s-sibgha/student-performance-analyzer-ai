@@ -68,7 +68,7 @@ Rule-Based Engine → Machine Learning Model → Fusion Decision Layer → Final
 Below are screenshots of the working application interface:
 
 <br><br>
-**🏠 Home Page**
+***🏠 Home Page***
 ![Home Page](assets/home.png)
 
 <br><br>
