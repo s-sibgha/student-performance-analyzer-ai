@@ -67,22 +67,23 @@ Rule-Based Engine → Machine Learning Model → Fusion Decision Layer → Final
 
 Below are screenshots of the working application interface:
 
-### 🏠 Home Page
+<br><br>
+**🏠 Home Page**
 ![Home Page](assets/home.png)
 
 <br><br>
 
-### 🎛 Prediction Interface
+**🎛 Prediction Interface**
 ![Prediction Interface](assets/prediction.png)
 
 <br><br>
 
-### 📊 Confusion Matrix
+**📊 Confusion Matrix**
 ![Confusion Matrix](assets/confusion_matrix.png)
 
 <br><br>
 
-### 📈 Feature Importance Graph
+**📈 Feature Importance Graph**
 ![Feature Importance](assets/feature_importance.png)
 
 <br><br>
