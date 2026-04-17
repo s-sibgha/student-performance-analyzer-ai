@@ -1,5 +1,7 @@
 # 📊 Student Performance Analyzer (Hybrid AI System)
 
+[![Live Demo](https://img.shields.io/badge/Live%20App-Open-green)](https://student-performance-analyzer-ai-kucrjlyb2xdnalf6tpapex.streamlit.app/)
+
 An intelligent Streamlit-based web application that predicts student performance using a **Hybrid AI approach combining Rule-Based Scoring and Machine Learning (Logistic Regression).**
 
 ---
@@ -128,10 +130,18 @@ This project was built as part of a personal learning journey in Data Science an
 ## 📬 Contact
 
 - GitHub: https://github.com/s-sibgha  
-- LinkedIn:https://linkedin.com/in/sibgha-3665a1377  
+- LinkedIn: https://linkedin.com/in/sibgha-3665a1377  
 
 ---
 
 ## ⭐ Final Statement
 
 This project demonstrates how hybrid AI systems can be used to combine human logic and machine learning for more interpretable and reliable predictions in real-world educational scenarios.
+
+---
+
+## ▶️ How to Run Locally
+
+```bash
+pip install -r requirements.txt
+streamlit run studentAI.py
