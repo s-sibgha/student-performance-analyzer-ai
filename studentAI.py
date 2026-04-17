@@ -148,11 +148,15 @@ if st.button("🔍 Analyze Performance"):
         attendance/100,
         practice/100
     ]
+    # ML probability first 
+    proba = model.predict_proba([inputs])[0]
+    confidence = max(proba) * 100
+    ml_status = ["High Risk", "Moderate", "Good"][np.argmax(proba)]
 
+# Rule-based
     score = calculate_score(inputs)
     rule_status = classify(score)
-    ml_status = predict_student(inputs)
-    confidence = int(max(model.predict_proba([inputs])[0]) * 100)
+
 
     if confidence >= 75:
         confidence_msg = "🟢 High confidence"
@@ -182,10 +186,9 @@ if st.button("🔍 Analyze Performance"):
         st.write(f"📊 Rule-Based Prediction: **{rule_status}**")
 
     with col2:
-        st.metric("Confidence", f"{confidence}%")
-        st.write(f"🤖 ML Prediction: **{ml_status}**")
-
-
+        st.metric("Confidence", f"{confidence:.1f}%")
+        st.write(f"🤖 ML Prediction: **{ml_status} ({confidence:.1f}%)**")
+        
     st.subheader("🧠 Final AI Decision")
     st.write(f"Final Status: **{final_status}**")
 
