@@ -87,7 +87,7 @@ Below are screenshots of the working application interface:
 ![Feature Importance](assets/feature_importance.png)
 
 <br><br>
-
+---
 ## 📌 Key Insights
 
 - Built a hybrid AI system combining rule-based logic with machine learning for better interpretability.
